@@ -117,7 +117,7 @@ The script is intended to be run from the command line. It requires the target U
 
 ## Input Files
 
-- `subdomains.list`: A file containing a list of potential passwords.
+- `password.list`: A file containing a list of potential passwords.
 
 ## Script Details
 
