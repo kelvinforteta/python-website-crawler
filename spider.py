@@ -14,7 +14,7 @@ def extract_links_from(url):
 
 
 def crawl(url):
-    href_links = extract_links_from(target_url)
+    href_links = extract_links_from(url)
     for link in href_links:
         link = urlparse.urljoin(url, link)
 
