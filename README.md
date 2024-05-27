@@ -128,7 +128,7 @@ The script is intended to be run from the command line. It requires the target U
 
 ### Script Logic
 
-1. Open the `subdomains.list` file and read each potential password.
+1. Open the `password.list` file and read each potential password.
 2. For each password, update the `data_dic` dictionary with the current password.
 3. Send a POST request to the target URL with the updated form data.
 4. Check the response content for a specific word or phrase that indicates a failed login attempt.
